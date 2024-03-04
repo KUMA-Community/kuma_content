@@ -1,1 +1,1 @@
-# kuma_content
+# Community content pack for KUMA
