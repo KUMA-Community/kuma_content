@@ -1,0 +1,9 @@
+# Нормализаторы для Cloud + VM
+
+|Название                                   |Тип   |Версия KUMA|Ресурсы                                                                                                                                                                         |Последнее обновление|
+|-------------------------------------------|------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+|VMware vCenter v7 (Syslog)                 |Syslog|2.1.1.73   |Нормализатор:  VMware vCenter v7 (Syslog)                                                                                                                                       |07.07.2023          |
+|VMware vCenter (Syslog)                    |Syslog|2.1.1.73   |Нормализатор:  VMware vCenter (Syslog)                                                                                                                                          |07.08.2023          |
+|zVirt + oVirt (Syslog)                     |regexp|2.1.1.73   |Нормализатор:  zVirt + oVirt (Syslog)                                                                                                                                           |11.01.2022          |
+|[Deprecated] VMware ESXi (Syslog)          |Syslog|2.1.1.73   |Нормализатор:  [Deprecated] VMware ESXi (Syslog)                                                                                                                                |22.09.2023          |
+|Yandex Cloud k8s (Syslog-JSON)             |Syslog|2.1.1.73   |Нормализатор: Yandex Cloud K8S (Syslog-JSON)                                                                                                                                    |25.07.2023          |
