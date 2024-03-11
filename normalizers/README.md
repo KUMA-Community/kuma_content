@@ -13,23 +13,23 @@
 
 ### Директории:
 
-**Microsoft** - нормализаторы для продуктов Microsoft
+[**Microsoft**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Microsoft) - нормализаторы для продуктов Microsoft
 
-**Linux** - нормализаторы для Unix систем
+[**Linux**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Linux) - нормализаторы для Unix систем
 
-**Firewall** - нормализаторы для межсетевых экранов, NGFW и UTM
+[**Firewall**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Firewall) - нормализаторы для межсетевых экранов, NGFW и UTM
 
-**Network** - нормализаторы для сетевых устройств (коммутаторы, маршрутизаторы и т.п.), а также NTA-решений
+[**Network**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Network) - нормализаторы для сетевых устройств (коммутаторы, маршрутизаторы и т.п.), а также NTA-решений
 
-**Kaspersky** - нормализаторы для продуктов ЛК
+[**Kaspersky**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Kaspersky) - нормализаторы для продуктов ЛК
 
-**Web** - нормализаторы для веб-серверов, а также WAF
+[**Web**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Web) - нормализаторы для веб-серверов, а также WAF
 
-**Cloud + VM** - нормализаторы для облачных решений и гипервизоров
+[**Cloud + VM**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Cloud%20%2B%20VM) - нормализаторы для облачных решений и гипервизоров
 
-**Endpoint** - нормализаторы для продуктов по защите конечных точек
+[**Endpoint**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Endpoint) - нормализаторы для продуктов по защите конечных точек
 
-**Other** - нормализаторы для продуктов, не попавших в другие классификации (например, 1С)
+[**Other**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Other) - нормализаторы для продуктов, не попавших в другие классификации (например, 1С)
 
 ## Нормализаторы
 
