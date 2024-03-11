@@ -1,5 +1,37 @@
 ## Описание
-Данный раздел содержит нормализаторы логов различных систем для KUMA
+Данный раздел содержит все нормализаторы для KUMA, разработанные и поддерживаемые сообществом KUMA.
+
+Рекомендуется использовать данный раздел в качестве справочного. Для отслеживания изменений, а также загрузки одиночных нормализаторов используйте соответствующие подразделы.
+
+## Содержание
+
+### Файлы:
+
+`normalizers.xlsx` - таблица с описанием нормализаторов (продублирована ниже в md формате)
+
+`All Normalizers` - файл ресурсов со всеми нормализаторами для импорта в KUMA
+
+### Директории:
+
+**Microsoft** - нормализаторы для продуктов Microsoft
+
+**Linux** - нормализаторы для Unix систем
+
+**Firewall** - нормализаторы для межсетевых экранов, NGFW и UTM
+
+**Network** - нормализаторы для сетевых устройств (коммутаторы, маршрутизаторы и т.п.), а также NTA-решений
+
+**Kaspersky** - нормализаторы для продуктов ЛК
+
+**Web** - нормализаторы для веб-серверов, а также WAF
+
+**Cloud + VM** - нормализаторы для облачных решений и гипервизоров
+
+**Endpoint** - нормализаторы для продуктов по защите конечных точек
+
+**Other** - нормализаторы для продуктов, не попавших в другие классификации (например, 1С)
+
+## Нормализаторы
 
 |Название                                   |Тип   |Версия KUMA|Ресурсы                                                                                                                                                                         |Последнее обновление|
 |-------------------------------------------|------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
@@ -8,7 +40,7 @@
 |zVirt + oVirt (Syslog)                     |regexp|2.1.1.73   |Нормализатор:  zVirt + oVirt (Syslog)                                                                                                                                           |11.01.2022          |
 |[Deprecated] VMware ESXi (Syslog)          |Syslog|2.1.1.73   |Нормализатор:  [Deprecated] VMware ESXi (Syslog)                                                                                                                                |22.09.2023          |
 |Yandex Cloud k8s (Syslog-JSON)             |Syslog|2.1.1.73   |Нормализатор: Yandex Cloud K8S (Syslog-JSON)                                                                                                                                    |25.07.2023          |
-|Symantec Endpoint Protection (SQL)         |sql   |2.1.1.73   |Нормализатор: Symantec Endpoint Protection (SQL); Слоаври: SEP agent-behavior severity map, SEP_db.agent.name.map                                                               |07.02.2023          |
+|Symantec Endpoint Protection (SQL)         |sql   |2.1.1.73   |Нормализатор: Symantec Endpoint Protection (SQL); Словари: SEP agent-behavior severity map, SEP_db.agent.name.map                                                               |07.02.2023          |
 |SecretNet (SQL)                            |sql   |2.1.1.73   |Нормализатор: SecretNet (SQL)                                                                                                                                                   |18.09.2023          |
 |Dallas Lock (KV)                           |regexp|2.1.1.73   |Нормализатор: Dallas Lock (KV)                                                                                                                                                  |22.09.2022          |
 |Dr.Web Antivirus (SQL)                     |regexp|2.1.1.73   |Нормализатор: Dr.Web Antivirus (SQL)                                                                                                                                            |22.09.2022          |
@@ -37,10 +69,10 @@
 |auditd (Regexp)                            |Syslog|2.1.1.73   |Нормализатор: auditd (Regexp); Словари: sesact, AuditD Sycall types for x64                                                                                                     |07.07.2023          |
 |auditd Beats Agent (JSON)                  |json  |2.1.1.73   |Нормализатор: auditd Beats Agent (JSON)                                                                                                                                         |20.10.2022          |
 |auditd (Syslog-Regexp)                     |regexp|2.1.1.73   |Нормализатор: auditd (Syslog-Regexp); Словари: sesact, AuditD Sycall types for x64                                                                                              |16.02.2024          |
-|Windows Events + Sysmon (XML)              |xml   |2.1.1.73   |нормализатор: Windows Events + Sysmon (XML); словари: MS Event_IDs-Names, MS (ImpersonationLevels - 4624), MS (ResultCodes - 4768 and 4769), MS (FailureCodes - 4625)           |03.07.2023          |
+|Windows Events + Sysmon (XML)              |xml   |2.1.1.73   |Нормализатор: Windows Events + Sysmon (XML); Словари: MS Event_IDs-Names, MS (ImpersonationLevels - 4624), MS (ResultCodes - 4768 and 4769), MS (FailureCodes - 4625)           |03.07.2023          |
 |Windows Firewall (Regexp)                  |regexp|2.1.1.73   |Нормализатор: Windows Firewall (Regexp)                                                                                                                                         |07.07.2023          |
 |Windows PowerShell (Regexp)                |regexp|2.1.1.73   |Нормализатор: Windows PowerShell (Regexp)                                                                                                                                       |07.07.2023          |
-|Windows DNS-Server (Regexp)                |regexp|2.1.1.73   |Нормализатор: Windows DNS-Server (Regexp); словарь: DNS_Opcodes                                                                                                                 |09.01.2023          |
+|Windows DNS-Server (Regexp)                |regexp|2.1.1.73   |Нормализатор: Windows DNS-Server (Regexp); Словарь: DNS_Opcodes                                                                                                                 |09.01.2023          |
 |IIS Exchange Log File Format (CSV)         |csv   |2.1.1.73   |Нормализатор: IIS Exchange Log File Format (CSV)                                                                                                                                |12.05.2023          |
 |Windows Server Essentials Experience (JSON)|regexp|2.1.1.73   |Нормализатор: Windows Server Essentials Experience (JSON)                                                                                                                       |22.09.2022          |
 |Windows Logstash (JSON)                    |json  |2.1.1.73   |Нормализатор: Windows Logstash (JSON)                                                                                                                                           |30.11.2022          |
