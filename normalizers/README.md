@@ -5,6 +5,8 @@
 
 Список всех нормализаторов: https://docs.google.com/spreadsheets/d/194uvOmrKZ-hY4TBBYE2ItGvUsNvqDIsgW8xlsKuvz_E/edit#gid=1570981898
 
+Пароль для импорта контента: **q123123Q!**
+
 ## Содержание
 
 ### Файлы:
