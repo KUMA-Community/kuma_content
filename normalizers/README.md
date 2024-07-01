@@ -13,6 +13,8 @@
 
 `All Normalizers` - файл ресурсов со всеми нормализаторами для импорта в KUMA
 
+`<Название нормализатора>.xlsx` - таблица с маппингом полей нормализатора
+
 ### Директории:
 
 [**Microsoft**](https://github.com/KUMA-Community/kuma_content/tree/main/normalizers/Microsoft) - нормализаторы для продуктов Microsoft
