@@ -19,3 +19,5 @@
 |PTsecurity ISIM (CSV)                      |regexp|2.1.1.73   |Нормализатор: PTsecurity ISIM (CSV)                                                                                                                                             |27.02.2023          |
 |PTsecurity Sandbox (JSON)                  |regexp|2.1.1.73   |Нормализатор: PTsecurity Sandbox (JSON)                                                                                                                                         |31.10.2022          |
 |DistKontrolUSB (Syslog)                    |syslog|3.2.0.305  |Нормализатор: DistKontrolUSB (Syslog)                                                                                                                                           |14.12.2024          |
+|Битрикс24 CRM MySQL (SQL)                  |sql   |3.4.0.551  |Нормализатор: Битрикс24 CRM MySQL (SQL)                                   
+                                                                                                      |29.03.2025          |
